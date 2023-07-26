@@ -1,0 +1,52 @@
+CRITICAL - 2023-07-24 19:29:55 --> Class "App\Controllers\UserMode" not found
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
+CRITICAL - 2023-07-24 19:30:07 --> Class "App\Controllers\UserMode" not found
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
+CRITICAL - 2023-07-24 19:30:55 --> Class "App\Controllers\UserMode" not found
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
+CRITICAL - 2023-07-24 19:33:58 --> Call to a member function with() on string
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
+CRITICAL - 2023-07-24 19:43:36 --> Attempt to read property "firstname" on array
+in APPPATH\Views\users.php on line 28.
+ 1 APPPATH\Views\users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on array', 'G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\app\\Views\\users.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
+CRITICAL - 2023-07-24 19:43:47 --> Attempt to read property "firstname" on array
+in APPPATH\Views\users.php on line 28.
+ 1 APPPATH\Views\users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on array', 'G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\app\\Views\\users.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\loginRegisterCodeigniter4new\\public\\index.php')
